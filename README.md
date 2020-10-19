@@ -1,6 +1,6 @@
 ## Website: tinakuobooks.com
 
-[![Build Status](https://travis-ci.com/mhuang74-blog/proteiosic.svg?branch=master)](https://travis-ci.com/github/mhuang74-blog/proteiosic)
+[![Build Status](https://travis-ci.com/mhuang74-blog/proteiosic.svg?branch=main)](https://travis-ci.com/github/mhuang74-blog/proteiosic)
 
 This repo contains source material for generating static website for [proteiosic.com](https://www.proteiosic.com).
 
