@@ -8,6 +8,45 @@
     
       
       <item>
+        <title>2021 Plans</title>
+        
+          <description>&lt;p&gt;To make me accountable, here are my plans for this blog for 2021.&lt;/p&gt;
+
+&lt;p&gt;Lets start with one entry in each of the following areas:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Microcontroller. Preferrably related to TinyML.&lt;/li&gt;
+  &lt;li&gt;Donkeycar. Preferrably using above microcontroller to navigate.&lt;/li&gt;
+  &lt;li&gt;Web Analytics. Provide Google Analytics setup/analysis for non-profits.&lt;/li&gt;
+  &lt;li&gt;Machine Learning. Anomaly detection areas.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 19 Oct 2010 00:00:00 +0000</pubDate>
+        <link>
+        https://www.proteiosic.com/Plans</link>
+        <guid isPermaLink="true">https://www.proteiosic.com/Plans</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Anomaly Detection</title>
+        
+          <description>&lt;p&gt;Anomaly Detection via scikit-learn.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 19 Oct 2010 00:00:00 +0000</pubDate>
+        <link>
+        https://www.proteiosic.com/ML-Anamoly-Detection</link>
+        <guid isPermaLink="true">https://www.proteiosic.com/ML-Anamoly-Detection</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Hello</title>
         
           <description>&lt;p&gt;Hello from Taipei!&lt;/p&gt;

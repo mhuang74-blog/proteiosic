@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="https://www.proteiosic.com/tag/machine-learning/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://www.proteiosic.com/" rel="alternate" type="text/html" />
+  <updated>2020-10-19T06:54:42+00:00</updated>
+  <id>https://www.proteiosic.com/tag/machine-learning/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Proteiosic Thoughts | </title>
+  
+
+  
+    <subtitle>Personal Blog of Michael S. Huang</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Anomaly Detection</title>
+      <link href="https://www.proteiosic.com/ML-Anamoly-Detection" rel="alternate" type="text/html" title="Anomaly Detection" />
+      <published>2010-10-19T00:00:00+00:00</published>
+      <updated>2010-10-19T00:00:00+00:00</updated>
+      <id>https://www.proteiosic.com/ML-Anamoly-Detection</id>
+      <content type="html" xml:base="https://www.proteiosic.com/ML-Anamoly-Detection">&lt;p&gt;Anomaly Detection via scikit-learn.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Michael S. Huang</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="machine-learning" />
+      
+
+      
+        <summary type="html">Anomaly Detection via scikit-learn.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
