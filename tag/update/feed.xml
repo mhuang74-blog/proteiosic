@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="https://www.proteiosic.com/tag/update/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://www.proteiosic.com/" rel="alternate" type="text/html" />
+  <updated>2020-10-19T03:56:59+00:00</updated>
+  <id>https://www.proteiosic.com/tag/update/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Proteiosic Thoughts | </title>
+  
+
+  
+    <subtitle>Personal Blog of Michael S. Huang</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Hello</title>
+      <link href="https://www.proteiosic.com/Hello" rel="alternate" type="text/html" title="Hello" />
+      <published>2010-10-19T00:00:00+00:00</published>
+      <updated>2010-10-19T00:00:00+00:00</updated>
+      <id>https://www.proteiosic.com/Hello</id>
+      <content type="html" xml:base="https://www.proteiosic.com/Hello">&lt;p&gt;Hello from Taipei!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Michael S. Huang</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="update" />
+      
+
+      
+        <summary type="html">Hello from Taipei!</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
