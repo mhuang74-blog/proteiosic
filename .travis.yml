@@ -1,21 +1,19 @@
-sudo: false
-language: ruby
-cache: bundler
-rvm:
-- 2.5.3
-install:
-- bundle install
-script: bundle exec rake site:deploy --quiet
-deploy:
-  provider: pages
-  edge: true
-  skip-cleanup: true
-  local-dir: _site
-  github-token: "$GH_TOKEN"
-  keep-history: true
-  target_branch: gh-pages
-  on:
-    branch: main
-env:
-  global:
-    secure: dvJKrMscDtKykmqSHQzqdmwHC3C/RpSyq/I242ogwckcYHlfD0st/LREIQiVOMCzsM2y9LG0w9lx1ql6Z/y0E4EqqSP4I4cXKFZKKqbmf8P/QWcuVgOl8WAqKVIaP11aCiJDEMPlOlGCn8Mm8hwiv5i6VAOODUZ5BwMg+2AdxJT+NhISSAGuFj7Xx63PYt6Ps3jqk1OeVNDhqGvTmE8siriLESFrs7/c4d2vMU0R2CKBGYtiL68LGipV72vchxKKJKSRxaSQ10XQ+/uMgVsKxt1OYKf+lpJYCte2ITQSJC4t0HS4nGaOyFoK6dkKnvUWUb5J0Wyb/LozLB6eoBDiXpigacf36QFNthQC9pqSzKJOFYNMRhvr1mOwLp0gagiUwvjbLKmIjaFRCSAObwMHaDEpmnofyCFqzr9ZCsZIyb5/giNdPiUOMRYbESaCgZyfob0qDWQEje/fJ9SZDEZWt3QfcvxL5sJZn0fDGIjdU5LPE/fP04y25bxBWO8ukFPighgFOo56EWchpGIXOcIV33KmoOa+8O+W6oOgAngY7MDw1laajgfxZeYpJcxDb4yMbR+1gRuH4LY6ZKJSJgi5j8GW2DmANFAxPjLPQV4NySbmW6J2Gucb26X6UZyWT18H6H55o4uCegnCeBmtQhXevbw9Xwd5GLn2YuVQ9BYYGSE=
+language: minimal
+
+before_script:
+  # Download and unzip the zola executable
+  # Replace the version numbers in the URL by the version you want to use
+  - curl -s -L https://github.com/getzola/zola/releases/download/v0.13.0/zola-v0.13.0-x86_64-unknown-linux-gnu.tar.gz | sudo tar xvzf - -C /usr/local/bin
+
+script:
+  - zola build
+
+# If you are using a different folder than `public` for the output directory, you will
+# need to change the `zola` command and the `ghp-import` path
+after_success: |
+  [ $TRAVIS_BRANCH = main ] &&
+  [ $TRAVIS_PULL_REQUEST = false ] &&
+  zola build &&
+  sudo pip install ghp-import &&
+  ghp-import -c proteiosic.com -n public -b gh-pages &&
+  git push -fq https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git master
