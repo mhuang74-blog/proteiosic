@@ -75,7 +75,7 @@
   {{ page.content | safe }}
 </div>
 
-{% set data = load_data(path="data.csv", required=false, format="csv") %}
+{% set data = load_data(path="static/data.csv", required=false, format="csv") %}
 {% if data %}
 
 <table id="example" class="display">
