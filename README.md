@@ -6,14 +6,11 @@ This repo contains source material for generating static website for [www.protei
 
 ## Getting Started
 
-* [Install Ruby and Jekyll](https://jekyllrb.com/docs/installation/macos/)
-  * Recommend Ruby `2.5.3`, which matches what's used on travis-ci.com
-* `$ bundle exec jekyll serve`
-* Browse to `http://localhost:4000`
+* `$ zola serve`
+* Browse to `http://localhost:1111`
 
 ## Powered by
 
-* [Jasper2](https://github.com/jekyller/jasper2)
-* [Jekyll](https://jekyllrb.com/)
+* [Zola](https://www.getzola.org/)
 * [GitHub Pages](https://pages.github.com/)
 
