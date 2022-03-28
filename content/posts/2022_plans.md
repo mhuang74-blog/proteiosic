@@ -2,11 +2,17 @@
 title = "2022 Writing Plans"
 description = "A few project areas that I would like to write about"
 date = 2022-03-27
+
+[taxonomies]
+categories = ["Personal"]
+tags = ["goals"]
 +++
 
 Looking at the blogging plans I wrote down for 2021, I feel embarassed, and somewhat defeated. What I have learned is this:
 
 * keep working on the *process*. that basically means managing my energy levels by: sleeping earlier (less time reading news); eat light dinner; don't check work email/slack and dive into hobby projects first thing in the morning.
+
+<!-- more -->
 
 * keep *focus*. Only do one thing well per year.
 
