@@ -1,5 +1,5 @@
 +++
-paginate_by = 5
-sort_by = "date"
+title = "Proteiosic Thoughts"
+description = "Writings by Michael S. Huang"
 +++
 
