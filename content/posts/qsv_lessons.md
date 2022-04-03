@@ -22,9 +22,9 @@ __No need for Rust Debugger__
 I sunk in a few days trying to get LLDB and GDB debugging flow working. The payoff was too small. I am sure I would need such powerful tools someday, but for my simple and occasional needs, `dbg!()` is enough.
 
 
-__Fmt is a Friend, and Clippy is a Mentor__
+_rustfmt is a Friend, and clippy is a Mentor__
 
-I received some complaints for my first few PR's because I wasn't used to running `cargo fmt`. Same with `cargo clippy`. Then I found that I could be sloppy with my whitespaces and indentations as long as I run Fmt later. And Clippy made me feel like having a personal mentor standing over my shoulders to check my newbie Rust code.
+I received some complaints for my first few PR's because I wasn't used to running `cargo fmt`. Same with `cargo clippy`. Then I found that I could be sloppy with my whitespaces and indentations as long as I run rustfmt later. And clippy made me feel like having a personal mentor standing over my shoulders to check my newbie Rust code.
 
 __Cargo Check on Save__
 

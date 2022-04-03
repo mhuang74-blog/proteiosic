@@ -1,5 +1,5 @@
 +++
-title = "Proteiosic Thoughts"
-description = "Writings by Michael S. Huang"
+title = "Michael S. Huang"
+description = "mhuang74"
 +++
 
