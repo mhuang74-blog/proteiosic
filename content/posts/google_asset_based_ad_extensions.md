@@ -19,9 +19,31 @@ Raw data is available [here](/asset_ad_extensions_last_ytd.csv).
 
 Google provides the [schedule](https://ads-developers.googleblog.com/2022/01/revised-schedule-for-auto-migration-of.html) for auto migration for each ad extension type. It would be interesting to see customer adoption and actual traffic patterns with respect to each of migration dates.
 
-I use a tool called [mccfind](https://github.com/mhuang74/mcc-find-rs) (one of my Rust learning projects) to grab campaign-level traffic data for a representative set of customers, and aggregate them together by Date and Extension Type.
+I use a tool called [mccfind](https://github.com/mhuang74/mcc-find-rs) (one of my Rust learning projects) to grab campaign-level traffic data via query below for about ~1000 Google Ads accounts, and aggregate them together by Date and Extension Type. Only the 4 major extention types (Sitelink, Callout, Call, and App) are included.
 
-Here's the  first few rows of the raw csv data, with header names corresponding to [Google Ads GAQL](https://developers.google.com/google-ads/api/docs/query/overview) field names.
+__GAQL to get YTD traffic on the 4 major Asset-based Ad Extensions__
+
+```sql
+# YTD Traffic from Asset-based Ad Extensions
+campaign_asset_ad_extensions_ytd = """
+	SELECT 
+	  campaign.id,
+	  segments.date,
+	  asset_field_type_view.field_type, 
+	  metrics.impressions, 
+	  metrics.clicks, 
+	  metrics.cost_micros,
+	  customer.currency_code  
+	FROM asset_field_type_view 
+	WHERE 
+	  segments.year IN (2022)
+	  AND asset_field_type_view.field_type IN ('SITELINK', 'CALL', 'CALLOUT', 'MOBILE_APP') 
+	  AND metrics.impressions > 1
+	ORDER BY 
+	  segments.date, campaign.id
+```
+
+Here's the first few rows of the raw csv data, with header names corresponding to [Google Ads GAQL](https://developers.google.com/google-ads/api/docs/query/overview) field names.
 
 __a peek at raw csv data__
 ```
