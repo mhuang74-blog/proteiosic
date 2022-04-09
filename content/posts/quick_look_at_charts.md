@@ -8,15 +8,15 @@ categories = ["Demo"]
 tags = ["chart", "open data"]
 +++
 
-I want to explore rendering charts via static site generators. Here I look at a couple of rendering libraries that are quite easy to integrate with [Zola](https://www.getzola.org/).
+I want to explore rendering charts via static site generators. Here are a couple of libraries that are easy to integrate with [Zola](https://www.getzola.org/).
 
-Below I plot open data from NYC 311 call records using 2 libraries:
+In this post, I plot open data from NYC 311 call records using:
 
 * [chart.xkcd](https://timqian.com/chart.xkcd/) - a chart library that plots “sketchy”, “cartoony” or “hand-drawn” styled charts.
 
 * [vega-lite](https://vega.github.io/vega-lite/) - a high-level grammar of interactive graphics.
 
-Raw data can be downloaded [here](/data.csv), or better yet, viewed the nicely rendered DataTable in this [post](@/posts/test_table.md).
+Raw data is available [here](/data.csv), or viewed interactively via my test post on [DataTables](@/posts/test_table.md).
 
 <!-- more -->
 
