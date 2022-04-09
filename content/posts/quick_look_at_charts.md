@@ -115,14 +115,14 @@ __templates/base.html__
 
 __vega_chart() shortcode__
 ```html
-<div id="vis"></div>
+<div id="{{id}}"></div>
 <script>{{body | safe}}</script>
 ```
 
 __call vega_chart() shortcode with Javascript body to render chart__
 * Note: vega-lite spec is expressed in JSON format
 ```js
-\{% vega_chart() %\}
+\{% vega_chart(id="vis") %\}
 
     // Assign the specification to a local variable vlSpec.
     var vlSpec = {
@@ -167,7 +167,7 @@ __call vega_chart() shortcode with Javascript body to render chart__
 \{% end %\}
 ```
 
-{% vega_chart() %}
+{% vega_chart(id="vis") %}
 
     // Assign the specification to a local variable vlSpec.
     var vlSpec = {
