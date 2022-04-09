@@ -31,14 +31,14 @@ Chart is generated via the `chart()` shortcode, which is defined in `themes/deep
 
 
 __chart() short code__
-```
+```html
 <svg class="chart">{{body | safe}}</svg>
 ```
 
 
 __call chart() shortcode with JSON definition to generate chart__
 * note: escaped `{%` and `%}` due to Zola rendering issues
-```
+```json
 \{% chart() %\}
 {
   "type": "Bar",
@@ -84,7 +84,7 @@ It is fairly easy to integrate [vega-lite](https://vega.github.io/vega-lite/) in
 First, override theme base template `base.html` to include vega-related javascript libraries in header. Zola support overriding either at file or block level. I hijacked a predefined block in the header section called `user_custom_stylesheet` which works just fine for my purpose.
 
 __templates/base.html__
-```
+```html
 {% extends "deep-thought/templates/base.html" %}
 
 {% block user_custom_stylesheet %}
@@ -99,14 +99,14 @@ __templates/base.html__
 `vega_chart()` invokes custom shortcode defined in `templates/shortcodes/vega_chart.html`, which just creates a div container and passes along the javascript body. Chart is defined via vega-lite spec expressed in JSON format. Javascript code takes the JSON spec and calls [vega-embed](https://github.com/vega/vega-embed) api to compile and render the view.
 
 __vega_chart() shortcode__
-```
+```html
 <div id="vis"></div>
 <script>{{body | safe}}</script>
 ```
 
 __call vega_chart() shortcode with Javascript body to render chart__
 * Note: vega-lite spec is expressed in JSON format
-```
+```js
 \{% vega_chart() %\}
 
     // Assign the specification to a local variable vlSpec.
@@ -201,7 +201,7 @@ vega-lite offers vastly more flexibility in terms of data aggregation, sorting, 
 Here's an attempt to filter for top complaint counts (> 50) by adding a __filter__ step in __transform__.
 Doesn't work. Looks like filter is being applied to csv data stream instead of output of aggregate.
 
-```
+```json
         "transform": [
           {
             "aggregate": [{
@@ -222,3 +222,6 @@ Doesn't work. Looks like filter is being applied to csv data stream instead of o
 
 ```
 
+### Summary
+
+I think both libraries have their usecases. I would use chart.xkcd to illustrate a point that only requires a few synthetic data points. Meanwhile, vega-lite's data aggregation, sorting, and filtering options makes it much more versatile for use with real datasets.
