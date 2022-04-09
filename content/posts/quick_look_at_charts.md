@@ -1,7 +1,7 @@
 +++
 title = "Visualize NYC 311 Call Stats via Zola"
 description = "Play with chart.xkcd and vega-lite"
-date = 2022-03-27
+date = 2022-04-09
 
 [taxonomies]
 categories = ["Demo"]
