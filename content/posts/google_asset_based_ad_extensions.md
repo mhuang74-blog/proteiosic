@@ -116,3 +116,7 @@ __output__
 ## Summary
 
 Looks like migration reakly started on Feb 9th, 2022, reaching first plateau around Feb 17th, and second plateau around March 9th.
+
+Next steps:
+
+* compare Asset-based traffic with Feeditem-based Ad Extension traffic to gauge percentage of traffic already migrated to Asset-based.
