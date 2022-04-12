@@ -268,6 +268,7 @@ Visualizing the daily impression changes across Asset-based Ad Extension migrati
 * some customers had Asset-based Sitelinks impressions since Jan 1st, 2002 to experiement with the new format
 * bulk of Sitelinks migration occured around Feb 17th, 2002
 * As of Apr 12, ~10% of Sitelinks are still in Feeditem form and trafficking
+* there appears to be downward trend of Sitelinks daily impresisons starting end of March, a month after they are migrated to Asset-based
 
 
 ## Next steps:
