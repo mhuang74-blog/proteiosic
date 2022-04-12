@@ -1,7 +1,7 @@
 +++
 title = "Google Ads Asset-based Ad Extensions"
 description = "Quick look at adoption"
-date = 2022-04-09
+date = 2022-04-12
 
 [taxonomies]
 categories = ["PPC"]
