@@ -2,8 +2,8 @@
 base_url = "https://www.proteiosic.com"
 
 # The site title and description; used in feeds by default.
-title = "mhuang74's blog"
-description = "Writings by Michael S. Huang"
+title = "Proteiosic Consulting"
+description = "Data ETL and Analytics"
 
 # The default language; used in feeds.
 default_language = "en"
@@ -159,13 +159,13 @@ name = "Michael Huang"
 avatar = "images/blog-cover-fractal.jpg"
 
 [extra.social]
-facebook = "mhuang74"
-github = "mhuang74"
-linkedin = "mhuang74"
-email = "mhuang74@gmail.com"
+#facebook = "mhuang74"
+#github = "mhuang74"
+#linkedin = ""
+email = "proteiosic.consulting@gmail.com"
 
 [extra.analytics]
-google = "G-26QBL7GERC"
+#google = "G-26QBL7GERC"
 
 [extra.commenting]
 disqus = ""

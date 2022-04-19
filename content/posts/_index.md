@@ -1,6 +1,6 @@
 +++
 title = "Posts"
-description = "Blog posts accumulated over time."
+description = "What we've been up to"
 sort_by = "date"
 paginate_by = 5
 +++

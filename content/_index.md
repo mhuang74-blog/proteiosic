@@ -1,5 +1,5 @@
 +++
-title = "Michael S. Huang"
-description = "mhuang74"
+title = "Proteiosic Consulting"
+description = "Products and Consulting for Data ETL and Analytics"
 +++
 
