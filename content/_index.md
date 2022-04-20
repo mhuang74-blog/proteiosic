@@ -1,5 +1,5 @@
 +++
 title = "Proteiosic Consulting"
-description = "Products and Consulting for Data ETL and Analytics"
+description = "Products & Consulting for Data ETL and Analytics"
 +++
 
