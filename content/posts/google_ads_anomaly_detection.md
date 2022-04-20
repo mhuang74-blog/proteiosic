@@ -8,7 +8,10 @@ categories = ["saas"]
 tags = ["google ads", "rust", "machine learning"]
 +++
 
-A SaaS service to generate free anomaly reports across large number of Google Ads accounts linked to MCC.
+I would like to explore the market for a SaaS service to generate free anomaly reports across large number of Google Ads accounts linked to MCC.
+
+* leverage Rust to run very quickly
+* quick enough to run off of free AWS resources
 
 <!-- more -->
 
