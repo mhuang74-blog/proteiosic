@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://www.proteiosic.com/sitemap.xml

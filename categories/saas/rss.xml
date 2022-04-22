@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Proteiosic Consulting - saas</title>
+        <link>https://www.proteiosic.com</link>
+        <description>Data ETL and Analytics</description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://www.proteiosic.com/categories/saas/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Sun, 27 Mar 2022 00:00:00 +0000</lastBuildDate>
+        <item>
+            <title>Google Ads Anomaly Detection</title>
+            <pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate>
+            <link>https://www.proteiosic.com/posts/google-ads-anomaly-detection/</link>
+            <guid>https://www.proteiosic.com/posts/google-ads-anomaly-detection/</guid>
+            <description>&lt;p&gt;I would like to explore the market for a SaaS service to generate free anomaly reports across large number of Google Ads accounts linked to MCC.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;leverage Rust to run very quickly&lt;&#x2F;li&gt;
+&lt;li&gt;quick enough to run off of free AWS resources&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+        </item>
+    </channel>
+</rss>
